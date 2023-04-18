@@ -72,7 +72,7 @@ function setup() {
 }
 
 function gotolink() {
-	window.open('https://vimeo.com/lucyellis');
+	window.open('https://lucy3llis.com/work%20sub%20page/work.html');
 }
 
 function gotolink2() {
