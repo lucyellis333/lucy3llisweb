@@ -1,3 +1,1 @@
-title: work
-layout: template
-filename: work.md 
+<h1> ur mum sucks my ass </h1>
