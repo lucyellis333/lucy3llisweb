@@ -28,6 +28,7 @@ solast = loadImage("solast.jpg");
 car = loadImage("carsframe2.jpg");
 weird = loadImage("the line frame.png");
 ddd = loadImage("ddd.png");
+mnh = loadImage("man and hand.png");
 
   for (let i = 0; i < numNose; i++){
     nose[i] = loadImage("nose"+i+".png");
@@ -74,6 +75,12 @@ function setup() {
   button.position(950, 500);
   button.mousePressed(gotolink6);
   button.size(350, 227.5);
+	
+  button = createImg("frame6.gif");
+  button.position(150, 750);
+  button.mousePressed(gotolink7);
+  button.size(350, 227.5);
+
 
 }
 
@@ -103,6 +110,10 @@ function gotolink6() {
 	window.open('https://www.youtube.com/watch?v=CCUZZFRnoPc&t=1s');
 }
 
+function gotolink7() {
+	window.open('https://youtu.be/Be_HnI9gWeI');
+}
+
 //LINKS FOR BUTTON!
 
 function draw() {
@@ -126,6 +137,7 @@ function draw() {
   image(car, 150, 500, 350, 227.5);
   image(weird, 550, 500, 350, 227.5);
   image(ddd, 950, 500, 350, 227.5);
+  image(mnh, 150, 750, 350, 227.5);
 
   // image(fram2, 150, 250, 350, 227.5);
   // image(fram2, 550, 250, 350, 227.5);
