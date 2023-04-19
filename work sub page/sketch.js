@@ -125,7 +125,7 @@ function draw() {
   rect(100 , 50, 150, 60); //button box
   stroke(255, 204, 0);
   strokeWeight(4);
-  rect(100 , 200, 1250, 1000); //workbox
+  rect(100 , 200, 1250, 1200); //workbox
 
   image(wok, 100, 50, 150, 60);
   image(fram, 100, 50, 150, 60);
